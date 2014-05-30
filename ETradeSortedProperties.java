@@ -52,7 +52,12 @@ public class ETradeSortedProperties<T, E> extends Properties implements
 		return 0;
 	}
 	
-	
+	/**
+	 * PropertiesList class is list implementation and it's subclass of 
+	 * ArrayList. It has element method which will return Enumeration instance
+	 * @author syandagu
+	 * @param <E>
+	 */
 	private class PropertiesList<E> extends ArrayList<E>{
 
 		/**
